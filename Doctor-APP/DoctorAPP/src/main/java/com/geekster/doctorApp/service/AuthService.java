@@ -3,7 +3,7 @@ package com.geekster.doctorApp.service;
 import com.geekster.doctorApp.model.AuthenticationToken;
 import com.geekster.doctorApp.model.Patient;
 
-public interface IAuthService {
+public interface AuthService {
 
      void saveToken(AuthenticationToken token);
      AuthenticationToken getToken(Patient patient);
