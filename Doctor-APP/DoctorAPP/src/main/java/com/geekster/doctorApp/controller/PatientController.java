@@ -7,7 +7,8 @@ import com.geekster.doctorApp.dto.SignUpInput;
 import com.geekster.doctorApp.dto.SignUpOutput;
 import com.geekster.doctorApp.model.AppointmentKey;
 import com.geekster.doctorApp.model.Doctor;
-import com.geekster.doctorApp.service.AuthService;
+//import com.geekster.doctorApp.service.AuthService;
+import com.geekster.doctorApp.service.AuthenticationService;
 import com.geekster.doctorApp.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -24,9 +25,11 @@ public class PatientController {
     PatientService patientService;
 
 
-    @Autowired
-    AuthService authService;
+//    @Autowired
+//    AuthService authService;
 
+    @Autowired
+    AuthenticationService authService;
     //sign up
 
     // sign up input

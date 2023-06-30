@@ -12,7 +12,6 @@ import com.geekster.doctorApp.model.Patient;
 import com.geekster.doctorApp.repository.IPatientRepo;
 import jakarta.xml.bind.DatatypeConverter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.security.MessageDigest;
